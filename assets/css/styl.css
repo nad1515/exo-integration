@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-size: 14px;
 
@@ -33,7 +33,7 @@ li a  {
 
 li a:hover {
     padding: 50px ;
-    background: #c50f0f;
+    background:#592A2E;
 
 }
 
@@ -49,27 +49,29 @@ h1 span {
  }
  
 .carousel {
-
     width: 100%;
     margin-bottom: 2%;
 
  }
-article {
+article, .box {
     /* border: solid red ; */
     display: flex;
     justify-content: space-around;
+
     
  }
 
 .blok {
-      display: flex;
-      flex-direction: column;
-      background-color: #6C655D;
-      width: 35%;
-      /* border: solid rgb(130, 137, 238); */
-      color:white;
+    width: 30%;
 
 
+  }
+  .blok * {
+    border: 1px solid red;
+    
+  }
+  img {
+    width: 100%;
   }
 
 h2 {
@@ -79,20 +81,36 @@ h2 {
     width: 100%;
     padding: 5%;
     /* border: solid red */
+
   }
-.img-Work {
-       width: 100%;
-       margin-bottom: 5%;
-  }
+p {
+  t
+}
 
 .plus_btn {
 display: block;
 width: 25%;
-margin: 0;
-align-self: end;
+/* margin-right: 0; */
+ align-items: end;
 
 }
-    
+
+.suite {
+    flex-direction: column;
+    text-align: start;
+}
+
+.suite li {
+    list-style-image: url('../img/arrow.png');
+}
+h3{
+    text-align: center;
+
+}
+
+.liste p:first-of-type {
+    font-weight: 900;
+}
     
   
    
